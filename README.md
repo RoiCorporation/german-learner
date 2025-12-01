@@ -1,3 +1,7 @@
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+
+
+
 # Welcome to the German Learner!
 
 This is a tiny script I developed a few years ago to help me learn German vocabulary
