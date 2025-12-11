@@ -3,7 +3,6 @@
 
 
 # Welcome to the German Learner!
-
 This is a tiny script I developed a few years ago to help me learn German vocabulary
 quickly and reliably, through sheer repetition. Back when I began to design this tool,
 I didn't know of other useful resources yet (i.e., Anki), so I battled on and developed
