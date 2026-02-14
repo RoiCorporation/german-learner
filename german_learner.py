@@ -2,6 +2,7 @@
 # -*- coding: utf-8 -*-
 
 import random;
+from colored import Fore, Style
 
 
 
@@ -430,9 +431,9 @@ if general_input == "1":
                 lista_auxiliar_word_dictionary.insert(índice_aleatorio_word_dictionary, elemento_aleatorio_word_dictionary)
                 resultado_word_dictionary = input(elemento_aleatorio_word_dictionary + " -----> ")
                 if word_dictionary[sorted_word_dictionary[índice_aleatorio_word_dictionary]] == resultado_word_dictionary:
-                    print("Correcto!", "\n", sorted_word_dictionary[índice_aleatorio_word_dictionary], " ----> ", word_dictionary[sorted_word_dictionary[índice_aleatorio_word_dictionary]], "\n\n")
+                    print(f"{Fore.green}Correcto!{Style.reset}\n{sorted_word_dictionary[índice_aleatorio_word_dictionary]}  ----> {word_dictionary[sorted_word_dictionary[índice_aleatorio_word_dictionary]]}\n\n")
                 else:
-                    print("Incorrecto!", "\n", sorted_word_dictionary[índice_aleatorio_word_dictionary], " ----> ", word_dictionary[sorted_word_dictionary[índice_aleatorio_word_dictionary]], "\n\n")
+                    print(f"{Fore.red}Incorrecto!{Style.reset}\n{sorted_word_dictionary[índice_aleatorio_word_dictionary]} ----> {word_dictionary[sorted_word_dictionary[índice_aleatorio_word_dictionary]]}\n\n")
  
     
     
